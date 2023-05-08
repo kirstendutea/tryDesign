@@ -1,0 +1,84 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    tools:context=".ShopItem"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_margin="20dp">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:src="@tools:sample/avatars" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txt_itemName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="EXAMPLENAME"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textAlignment="center"/>-->
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Item image -->
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Item name -->
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Item price -->
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Item description -->
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Item amount -->
+    <TextView
+        android:id="@+id/item_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Buy button -->
+    <Button
+        android:id="@+id/popup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Me"
+        android:background="@color/main_colour"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

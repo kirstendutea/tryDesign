@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Productivity App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">Welcome to this productivity app.
+        This is your home screen.
+        To navigate to the different areas of the app click the icons below.
+        The shop page is where you will find the majority of the app.</string>
+</resources>

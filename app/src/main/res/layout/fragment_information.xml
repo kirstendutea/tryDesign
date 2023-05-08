@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Here is how to use this productivity app based on tasks completed. In the shop you will find different items that you can buy with in-app currency. They each have a price and you can see the details about them. Once you have purchased them they will show up in your Garden. To earn more currency complete tasks every day. To see how consistant you are you can go to the statistic page to see, for example, if there is a specific day of the week you are more productive" />
+
+</FrameLayout>
